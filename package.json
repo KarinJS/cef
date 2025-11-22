@@ -1,0 +1,19 @@
+{
+  "name": "cef-node-screenshot",
+  "version": "0.1.0",
+  "private": true,
+  "description": "CEF-based screenshot DLL exposed to Node via N-API (Windows)",
+  "gypfile": true,
+  "scripts": {
+    "build": "node-gyp rebuild",
+    "clean": "node-gyp clean"
+  },
+  "dependencies": {
+    "node-addon-api": "^7.0.0"
+  },
+  "devDependencies": {
+    "node-gyp": "^10.0.0"
+  },
+  "author": "",
+  "license": "MIT"
+}
