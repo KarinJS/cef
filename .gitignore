@@ -1,18 +1,57 @@
+# Dependencies
 node_modules/
+package-lock.json
+
+# Build outputs
 build/
 out/
 Release/
 Debug/
 dist/
+
+# Cache directories
 cache/
-cef_debug.log
-shot.png
+**/wv2-cache/
+
+# Logs
 *.log
+cef_debug.log
+
+# Visual Studio
 *.user
 *.opendb
 *.tlog
+*.suo
+*.sln.docstates
+.vs/
+
+# .NET
+bin/
+obj/
+*.dll
+*.pdb
+
+# CEF binaries
 third_party/cef/cef_binary_*/
-/cache
-/tools/cmake
+third_party/cef/build_wrapper/
+
+# Tools (用户自行安装)
+tools/
+
+# Screenshots
+shot.png
+screenshot.png
+*.png
+
+# Compressed files
 *.zip
-/third_party/cef
+
+# Temporary files
+tmp_*
+*.tmp
+
+# OS specific
+Thumbs.db
+.DS_Store
+/tools/cmake
+/third_party

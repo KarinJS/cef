@@ -1,0 +1,26 @@
+{
+  "name": "@karinjs/webview2-screenshot-tool",
+  "version": "0.1.0",
+  "private": true,
+  "description": "WebView2-based screenshot tool for Windows",
+  "main": "bin/Release/net8.0/webview2-screenshot.exe",
+  "scripts": {
+    "build": "dotnet build -c Release",
+    "clean": "dotnet clean",
+    "demo": "node demo.js",
+    "test": "dotnet build -c Release && node demo.js"
+  },
+  "keywords": [
+    "webview2",
+    "screenshot",
+    "dotnet",
+    "windows"
+  ],
+  "author": "KarinJS",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KarinJS/cef.git",
+    "directory": "packages/webview2-screenshot-tool"
+  }
+}
