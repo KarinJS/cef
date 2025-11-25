@@ -1,0 +1,11 @@
+# 语言识别配置
+*.html linguist-detectable=false
+*.htm linguist-detectable=false
+
+# 确保主要语言正确识别
+*.cc linguist-language=C++
+*.h linguist-language=C++
+*.cs linguist-language=C#
+*.js linguist-language=JavaScript
+*.ts linguist-language=TypeScript
+*.gyp linguist-language=Python
